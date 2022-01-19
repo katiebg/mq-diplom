@@ -1,0 +1,95 @@
+
+   @media  (max-width:640px) {
+     
+    .header {
+        background: url(../images/banner-mobile.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        background-color: #666666;
+    
+        padding: 30px 0;
+        position: relative;
+        z-index: -1;
+        height: 640px;
+    }
+    
+    .header:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5);
+        z-index: 0;
+    }
+    
+    /*контейнер*/
+    .container {
+        box-sizing: border-box;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: auto;
+        padding: 0 4.4%;
+    }
+    
+    /*верхнее меню с лого*/
+    .menu-logo {
+        width: 75vw;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        margin: 225px auto 44px;
+    
+        z-index: 1;
+    }
+
+    .menu{
+    display: none;
+    }
+
+    .btn-menu{
+        height: 20px;
+        width: 24px;
+        list-style-type: none;
+        z-index: 1;
+        position: absolute;
+        right: 16px;
+        top: 32px;
+    }
+
+    .menu-line{
+        height: 4px;
+        width: 24px;
+        background-color: white;
+        margin-top: 4px;
+    }
+
+    .menu-line:first-child{
+        margin-top: 0;
+    }
+    
+    .intro {
+        box-sizing: border-box;
+        width: 668px;
+        /*height: 373px;*/
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: auto;
+        margin-right: auto;
+        /*padding-top: 95px;*/
+    
+        font-size: 7vw;
+        line-height: 75px;
+        text-transform: uppercase;
+        color: #ffffff;
+        font-weight: 700;
+        font-family: "Open Sans";
+        text-align: center;
+        line-height: 36px;
+    
+        z-index: 2;
+    }
+ }
