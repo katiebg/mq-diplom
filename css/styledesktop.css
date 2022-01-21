@@ -17,6 +17,7 @@
   .container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     width: 100%;
     margin: auto;
     padding: 0;
@@ -162,7 +163,30 @@
     width: 16.2vw;
     margin-left: 8.31vw;
   }
+
+  /*-----------SHOP----------------*/
+  .shop{
+    width: 70.48vw;
+  }
+
+  .shop-item1{
+    width: 20.54vw;
+    margin-right: 3.73vw;
+  }
+  .shop-item2{
+    width: 20.54vw;
+    margin-right: 3.73vw;
+  }
+  .shop-item3{
+    width: 20.54vw;
+  }
+
+  /*-----------footer----------*/
+
+  .footer-wrapper{
+    width: 70.48vw;
+  }
   
-  
+
 }
 

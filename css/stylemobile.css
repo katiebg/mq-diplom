@@ -113,7 +113,8 @@
 /*-----------------content-------------------*/
     .content {
         flex-wrap:wrap;
-        margin: 45px auto 0;
+        margin: 45px 16px 0;
+        flex-direction: column;
     }
 
     .post-list {
@@ -157,7 +158,7 @@
 /*------------------side bar------------*/
 
     .side-bar{
-        width: 100%;
+        width: 91.66vw;
     }
 
     .search-group{
@@ -175,9 +176,39 @@
         width: 100%;
     }
 
+    .sub-input{
+        width: 100%;
+    }
+
+    /*-------------SHOP-------------*/
+
+    .shop-list{
+        width: 91.66vw;
+        flex-wrap: wrap;
+        max-width: 337px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .shop-item1{
+        width: 91.66vw;
+        margin-bottom: 26px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .shop-item2{
+        width: 91.66vw;
+        margin-bottom: 26px;
+    }
+    .shop-item3{
+        width: 91.66vw;
+    }
+
     /*------------footer------------*/
 
-    
+    .footer-wrapper{
+        width: 91.66vw;
+    }
+
 
 
     

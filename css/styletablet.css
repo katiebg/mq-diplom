@@ -75,13 +75,14 @@
 
     .trends-list{
         flex-wrap: wrap;
-        justify-content: space-between;
     }
   
     .trends-item1, .trends-item2, .trends-item3, .trends-item4{
       height: 320px;
       width: 49.7vw;
       max-width: 446px;
+      margin-left: auto;
+      margin-right: auto;
 
     }
 
@@ -99,9 +100,9 @@
 /*-----------------content--------------*/
 
     .content {
-        flex-wrap:wrap;
-        margin: 52px auto 0;
-        padding-left: 4.56vw;
+        flex-wrap: wrap;
+        margin: 52px 4.68vw 0;
+        width: 90.88vw
     }
 
     .post-list-article {
@@ -119,7 +120,7 @@
 
     .post-list{
         flex-wrap: wrap;
-        width: 51.1vw;
+        width: 51vw;
         max-width: 460px;
 
     }
@@ -135,8 +136,30 @@
     /*---------------side-bar-------------*/
 
     .side-bar{
-        width: 35.46vw;
-        margin-left: 4.56vw;
+        width: 35.28vw;
+        margin-left: 4.55vw;
+    }
+
+    /*------------- shop -----------*/
+
+    .shop-list{
+        flex-wrap: wrap;
+    }
+
+    .shop-item1, .shop-item2, .shop-item3{
+        max-width: 332px;
+        width: 37.8vw;
+        margin-bottom: 28px;
+    }
+
+    .shop-item1{
+        margin-right: 2.8vw;
+    }
+
+    /*-------------footer-------------*/
+
+    .footer-wrapper{
+        width: 90.88vw
     }
   
   }
