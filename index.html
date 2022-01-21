@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/styledesktop.css">
     <link rel="stylesheet" href="css/stylemobile.css">
+    <link rel="stylesheet" href="css/styletablet.css">
 </head>
 <body>
     <header class="header">
@@ -16,7 +17,7 @@
           <div class="menu-logo">
       
             <a class="logo-link" href="#">
-              <img class="logo" src="svg/noemi-logo.svg" alt="NOEMI" width="180">
+              <img class="logo" src="../svg/noemi-logo.svg" alt="NOEMI" width="180">
             </a>
             <nav class="header-navigation">
               <ul class="menu">
@@ -52,39 +53,45 @@
             и образе жизни</h1>
       
         </div>
-        </header>
+      </header>
 
        <section class="trends">
-            <h3 class="posts-title">в тренде</h3>
+            <h3 class="posts-title"> сейчас в тренде</h3>
             <article class="trends-list">
-                <div class="trends-item1">
-                    <div class="trends-article">
-                      <div class="trends-list-article">
-                        <ul class="trends-category">
-                          <li class="trends-category-item">
-                            <a class="trends-category-item-link" href="#">lifestyle</a>
-                          </li>
-                          <li class="trends-category-item">
-                            <a class="trends-category-item-link" href="#">interior</a>
-                          </li>
-                        </ul>
-                      <h4 class="trends-title">Сейчас в тренде: сад на подоконнике</h4>
-                    </div>
-                </div>
-                <div class="trends-item2">
-                  <div class="trends-article">
-                    <div class="post-list-article">
-                      <ul class="trends-category">
-                        <li class="trends-category-item">
-                          <a class="trends-category-item-link" href="#">food</a>
-                        </li>
-                      </ul>
-                    <h4 class="trends-title">сыры на красивых картинках из интернета: какие они на вкус?</h4>
+              <div class="trends-item1">
+                <div class="trends-article">
+                  <div class="trends-list-article">
+                    <ul class="trends-category">
+                      <li class="trends-category-item">
+                        <a class="trends-category-item-link" href="#">lifestyle</a>
+                      </li>
+                      <li class="trends-category-item">
+                        <a class="trends-category-item-link" href="#">interior</a>
+                      </li>
+                    </ul>
                   </div>
+                  <h4 class="trends-title">
+                    <a href="#" class="trends-title-link">Сейчас в тренде: сад на подоконнике</a>
+                  </h4>
+                </div>
+              </div>
+              <div class="trends-item2">
+                <div class="trends-article">
+                  <div class="trends-list-article">
+                    <ul class="trends-category">
+                      <li class="trends-category-item">
+                        <a class="trends-category-item-link" href="#">food</a>
+                      </li>
+                    </ul>
+                  <h4 class="trends-title">
+                    <a href="#" class="trends-title-link">сыры на красивых картинках из интернета: какие они на вкус?</a>
+                  </h4>
+                  </div>
+                </div>
               </div>
               <div class="trends-item3">
                 <div class="trends-article">
-                  <div class="post-list-article">
+                  <div class="trends-list-article">
                     <ul class="trends-category">
                       <li class="trends-category-item">
                         <a class="trends-category-item-link" href="#">lifestyle</a>
@@ -93,12 +100,15 @@
                         <a class="trends-category-item-link" href="#">travel</a>
                       </li>
                     </ul>
-                  <h4 class="trends-title">СОБИРАЕМСЯ В ПЕРВЫЙ ПОХОД В ГОРЫ</h4>
+                  <h4 class="trends-title">
+                    <a href="#" class="trends-title-link">СОБИРАЕМСЯ В ПЕРВЫЙ ПОХОД В ГОРЫ</a>
+                  </h4>
                 </div>
-            </div>
-            <div class="trends-item4">
-              <div class="trends-article">
-                <div class="post-list-article">
+                </div>
+              </div>
+              <div class="trends-item4">
+                <div class="trends-article">
+                <div class="trends-list-article">
                   <ul class="trends-category">
                     <li class="trends-category-item">
                       <a class="trends-category-item-link" href="#">food</a>
@@ -107,13 +117,16 @@
                       <a class="trends-category-item-link" href="#">lifestyle</a>
                     </li>
                   </ul>
-                <h4 class="trends-title">Сейчас в тренде: сКОЛЬКО ВИТАМИНА c В ЛИМОНАХ?</h4>
+                <h4 class="trends-title">
+                  <a href="#" class="trends-title-link">Сейчас в тренде: сКОЛЬКО ВИТАМИНА c В ЛИМОНАХ?</a>
+                </h4>
               </div>
-          </div>
+              </div>
+              </div>
             </article>
         </section>
 
-        <div class="content">
+      <div class="content">
 
        
       
@@ -145,7 +158,7 @@
           </article>
       
           <article class="post-list">
-            <img src="images/last-post2.jpg" alt="занятие йогой" width="380">
+            <img src="images/last-post2.jpg" class="post-list-picture" alt="занятие йогой" width="380">
             <div class="post-list-article">
               <ul class="article-category">
                 <li class="article-category-item">
@@ -169,7 +182,7 @@
           </article>
       
           <article class="post-list">
-            <img src="images/last-post3.jpg" class="post-list-picture" alt="музыкальный фестиваль" width="380">
+            <img src="images/last-post3.jpg"  class="post-list-picture" alt="музыкальный фестиваль" width="380">
             <div class="post-list-article">
               <ul class="article-category">
                 <li class="article-category-item">
@@ -316,7 +329,7 @@
                 <input type="email" class="input-email" name="query" placeholder="Ваш email-адрес" required>
                 <span class="visually-hidden">e-mail адресс</span>
               </label>
-              <button class="input-bottom">подписаться</button>
+              <button class="input-button">подписаться</button>
             </form>
           </section>
           <section class="tag">
@@ -379,6 +392,32 @@
           </section>
       
         </aside>
+
+        <section class="shop">
+          <h3 class="posts-title">наши изделия</h3>
+          <div class="shop-list">
+            <div class="shop-item1">
+              <h4 class="shop-title">подушки на диван</h4>
+              <p class="shop-text">Набор из двух подушек с модными принтами. Видео о создании 
+                <a href="#" class="shop-text-link">здесь.</a>
+              </p>
+              <footer class="shop-footer">
+                <div class="product-prices">
+                  <span class="product-price product-price_old">
+                    <span class="product-price-value">2 110 610</span>
+                    <span class="product-rub">₽</span>
+                  </span>
+                  <span class="product-price">
+                    <span class="product-price-value">1 519 869</span>
+                    <span class="product-rub">₽</span>
+                  </span>
+                </div>
+                <button class="product-button" type="button">Купить</button>
+              </footer>
+            </div>
+          </div>
+
+        </section>
       
       </div>
       
