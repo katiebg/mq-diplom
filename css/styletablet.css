@@ -1,0 +1,142 @@
+@media (min-width: 641px) and (max-width:1200px) {
+     
+
+    .header {
+      background: url(../images/banner-bg-tablet.jpg);
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      background-color: #666666;
+    
+      padding: 0;
+      position: relative;
+      z-index: -1;
+    }
+    
+    /*контейнер*/
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      height: 394px;
+      width: 100vw;
+      margin: auto;
+      padding: 0;
+    }
+    
+    /*верхнее меню с лого*/
+    .menu-logo {
+        width: 75vw;
+        margin: 43px 35px;
+        z-index: 1;
+    }
+  
+    .menu{
+        display: none;
+    }
+    
+    .btn-menu{
+        height: 20px;
+        width: 24px;
+        list-style-type: none;
+        z-index: 1;
+        position: absolute;
+        right: 35px;
+        top: 52px;
+        margin: 0;
+    }
+    
+    .menu-line{
+        height: 4px;
+        width: 24px;
+        background-color: white;
+        margin-top: 4px;
+    }
+    
+    .menu-line:first-child{
+        margin-top: 0;
+    }
+    
+    .intro {
+        box-sizing: border-box;
+        width: 79.11vw;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: auto;
+        margin-right: auto;    
+        font-size: 5.19vw;
+        line-height: 55px;
+    
+        z-index: 2;
+    }
+  
+    .trends{
+      margin-top: 50px;
+    }
+
+    .trends-list{
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+  
+    .trends-item1, .trends-item2, .trends-item3, .trends-item4{
+      height: 320px;
+      width: 49.7vw;
+      max-width: 446px;
+
+    }
+
+    .trends-item1, .trends-item2{
+        margin-bottom: 4px;
+    }
+  
+    .trends-article{
+      position: absolute;
+      bottom: 0;
+      margin: 1.08vw;
+      padding: 1.62vw 1.92vw 2.29vw; 
+    }
+
+/*-----------------content--------------*/
+
+    .content {
+        flex-wrap:wrap;
+        margin: 52px auto 0;
+        padding-left: 4.56vw;
+    }
+
+    .post-list-article {
+        margin-left: 30px;
+    }
+
+    .article-category{
+        margin-top: 17px;
+    }
+
+    .article-title-link{
+        font-size: 17px;
+        line-height: 22px;
+    }
+
+    .post-list{
+        flex-wrap: wrap;
+        width: 51.1vw;
+        max-width: 460px;
+
+    }
+
+    .post-list-article{
+        margin-left: 0;
+    }
+
+    .post-list-picture{
+        width: 51.1vw;
+    }
+
+    /*---------------side-bar-------------*/
+
+    .side-bar{
+        width: 35.46vw;
+        margin-left: 4.56vw;
+    }
+  
+  }

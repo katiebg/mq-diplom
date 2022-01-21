@@ -13,23 +13,13 @@
     z-index: -1;
   }
   
-  .header:after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
-    z-index: 0;
-  }
   /*контейнер*/
   .container {
     display: flex;
     flex-wrap: wrap;
-    width: 1200px;
+    width: 100%;
     margin: auto;
-    padding: 0 15px;
+    padding: 0;
   }
   
   /*верхнее меню с лого*/
@@ -39,6 +29,9 @@
     align-items: center;
   
     z-index: 1;
+  }
+  .btn-menu{
+    display:none;
   }
   
   .menu {
@@ -76,23 +69,100 @@
   }
   
   .intro {
-    box-sizing: border-box;
-    width: 668px;
     height: 373px;
-    margin-top: 0;
-    margin-bottom: 0;
-    margin-left: auto;
-    margin-right: auto;
     padding-top: 95px;
   
     font-size: 45px;
     line-height: 75px;
-    text-transform: uppercase;
-    color: #ffffff;
-    font-weight: 700;
-    font-family: "Open Sans";
     text-align: center;
   
     z-index: 2;
   }
+
+  .trends{
+    margin-top: 64px;
+  }
+
+  .trends-item1, .trends-item2, .trends-item3, .trends-item4{
+    margin-left: 4px;
+    height: 320px;
+    width: 24.69vw;
+  }
+
+.trends-item1{
+    margin-left: 0;
+  }
+
+  .trends-article{
+    position: absolute;
+    bottom: 0;
+    margin: 1.08vw;
+    padding: 1.62vw 1.92vw 2.29vw; 
+  }
+
+  /*---------------content---------------*/
+  .content{
+    margin: 64px 14.81vw 0;
+    flex-wrap: wrap;
+  }
+  .post-list-article {
+    margin-left: 30px;
+  }
+
+  .post{
+    width: 45.78vw;
+    max-width: 815px;
+  }
+
+  .post-list:not(:last-child) {
+    margin-bottom: 60px;
+  }
+  
+  .article-category {
+    display: flex;
+    list-style-type: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "Open Sans";
+    padding-left: 0;
+    margin: 0;
+    margin-bottom: 7px;
+  }
+  
+
+  .article-title-link {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  
+  .article-meta {
+    margin-top: 36px;
+  }
+  
+  
+  .article-preview {
+    margin-top: 57px;
+  }
+  
+  .article-preview-dope {
+    width: 367px;
+    height: 62px;
+    font-size: 15px;
+    line-height: 22px;
+    color: #0f0d0e;
+    font-weight: 400;
+    font-family: "Open Sans";
+    margin: 0;
+  }
+
+  /*----------------side-bar----------*/
+
+  .side-bar {
+    width: 16.2vw;
+    margin-left: 8.31vw;
+  }
+  
+  
 }
+

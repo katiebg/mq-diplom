@@ -8,27 +8,17 @@
         background-size: cover;
         background-color: #666666;
     
-        padding: 30px 0;
+        padding: 0;
         position: relative;
         z-index: -1;
         height: 640px;
+        width: 100vw;
     }
     
-    .header:after {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background: rgba(0, 0, 0, 0.5);
-        z-index: 0;
-    }
     
     /*контейнер*/
     .container {
         box-sizing: border-box;
-        display: flex;
         flex-wrap: wrap;
         width: 100%;
         margin: auto;
@@ -82,14 +72,114 @@
         /*padding-top: 95px;*/
     
         font-size: 7vw;
-        line-height: 75px;
-        text-transform: uppercase;
-        color: #ffffff;
-        font-weight: 700;
-        font-family: "Open Sans";
-        text-align: center;
         line-height: 36px;
     
         z-index: 2;
     }
+
+    /*-----------тренды--------*/
+
+    .trends{
+        margin-top: 45px;
+      }
+
+    .trends-list{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .trends-item1, .trends-item2, .trends-item3, .trends-item4{
+        height: 230px;
+        width: 100vw;
+        max-width: 446px;
+        margin-bottom: 4px;
+    }
+
+    .trends-title{
+        font-size: 4.44vw;
+    }
+
+    .trends-article{
+        position: absolute;
+        bottom: 0;
+        margin: 5.27vw;
+        padding: 3.05vw 5.5vw 7.5vw; 
+      }
+
+      .trends-category-item{
+        font-size: 3.88vw;
+      }
+
+/*-----------------content-------------------*/
+    .content {
+        flex-wrap:wrap;
+        margin: 45px auto 0;
+    }
+
+    .post-list {
+        flex-wrap: wrap;
+        width: 91.66vw;
+        margin-bottom: 35px; 
+    }
+
+    .post-list::after {
+        content: "";
+        display: block;
+        width: 91.66vw;
+        height: 3px;
+        background-color: #eeeeee;
+        margin: 25px auto 0;
+    }
+
+    .post-list-picture{
+        width: 91.66vw;
+    }
+
+    .article-title-link {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .post-list-article{
+        width: 91.66vw;
+        margin-top: 16px;
+    }
+
+    .article-meta {
+        margin-top: 25px;
+    }
+
+    .article-preview{
+        width: 100%;
+        margin-top: 22px;
+    }
+
+/*------------------side bar------------*/
+
+    .side-bar{
+        width: 100%;
+    }
+
+    .search-group{
+        width: 78.33vw;
+    }
+    .field-search-group{
+        width: 78.33vw;
+    }
+    
+    .input-email{
+        width: 100%;
+    }
+
+    .input-button{
+        width: 100%;
+    }
+
+    /*------------footer------------*/
+
+    
+
+
+    
  }
+
