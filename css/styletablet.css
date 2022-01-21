@@ -64,7 +64,7 @@
         margin-left: auto;
         margin-right: auto;    
         font-size: 5.19vw;
-        line-height: 55px;
+        line-height: 7.16vw;
     
         z-index: 2;
     }
@@ -102,11 +102,21 @@
     .content {
         flex-wrap: wrap;
         margin: 52px 4.68vw 0;
-        width: 90.88vw
+        width: 90.88vw;
+        justify-content: space-between;
     }
 
     .post-list-article {
         margin-left: 30px;
+    }
+
+    .post-list:not(:last-child):after {
+        content: "";
+        display: block;
+        width: 51.04vw;
+        height: 3px;
+        background-color: #eeeeee;
+        margin: 23px auto 41px;
     }
 
     .article-category{
@@ -144,6 +154,7 @@
 
     .shop-list{
         flex-wrap: wrap;
+        justify-content: space-between;
     }
 
     .shop-item1, .shop-item2, .shop-item3{

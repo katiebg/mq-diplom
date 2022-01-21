@@ -108,7 +108,8 @@
   }
   .post-list-article {
     margin-left: 30px;
-  }
+    width: 20.48vw;
+    }
 
   .post{
     width: 45.78vw;
@@ -144,6 +145,7 @@
   
   .article-preview {
     margin-top: 57px;
+    width: 20.48vw;    
   }
   
   .article-preview-dope {
@@ -155,6 +157,7 @@
     font-weight: 400;
     font-family: "Open Sans";
     margin: 0;
+    width: 20.48vw;
   }
 
   /*----------------side-bar----------*/
