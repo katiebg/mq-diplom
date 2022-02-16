@@ -28,8 +28,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100vw;
   
     z-index: 1;
+  }
+
+  .logo-link{
+    margin-left: 248px;
   }
   .btn-menu{
     display:none;
@@ -39,7 +44,7 @@
     display: flex;
   
     padding: 0;
-    margin-left: 525px;
+    margin-right: 224px;
   
     list-style-type: none;
   }
@@ -172,17 +177,30 @@
     width: 70.48vw;
   }
 
-  .shop-item1{
-    width: 20.54vw;
+  .shop-item{
+    width: 20.96vw;
     margin-right: 3.73vw;
+    position: relative;
   }
-  .shop-item2{
-    width: 20.54vw;
-    margin-right: 3.73vw;
+
+  .shop-item:last-child{
+    margin-right: 0;
   }
-  .shop-item3{
-    width: 20.54vw;
+
+  .shop-item-article{
+    position: absolute;
+    top: 172px;
+    height: 268px;
+    box-sizing: border-box;
   }
+
+  .shop-image{
+    position: relative;
+    left: 23px;
+    right: 23px;
+  }
+  
+
 
   /*-----------footer----------*/
 
