@@ -1,0 +1,266 @@
+@media (min-width:1200px) {
+     
+
+  .header {
+    background: url(../images/banner-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-color: #666666;
+  
+    padding: 30px 0;
+    position: relative;
+    z-index: -1;
+  }
+  
+  /*контейнер*/
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    padding: 0;
+  }
+  
+  /*верхнее меню с лого*/
+  .menu-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+  
+    z-index: 1;
+  }
+
+  .logo-link{
+    margin-left: 248px;
+  }
+  .btn-menu{
+    display:none;
+  }
+  
+  .menu {
+    display: flex;
+  
+    padding: 0;
+    margin-right: 224px;
+  
+    list-style-type: none;
+  }
+  
+  .menu-list-item {
+    margin-right: 35px;
+  }
+  
+  .menu-list-item-link {
+    list-style-type: none;
+    text-transform: uppercase;
+    text-decoration: none;
+  
+    font-size: 13px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-align: center;
+  }
+  
+  .menu-list-item-link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  .menu-list-item:last-child {
+    margin-right: 0;
+  }
+  
+  .intro {
+    height: 373px;
+    padding-top: 95px;
+  
+    font-size: 45px;
+    line-height: 75px;
+    text-align: center;
+  
+    z-index: 2;
+  }
+
+  .trends{
+    margin-top: 64px;
+  }
+
+  .trends-list{
+    justify-content: space-around;
+
+  }
+
+  .trends-item1, .trends-item2, .trends-item3, .trends-item4{
+    margin-left: 4px;
+    height: 320px;
+    width: 24.69vw;
+    max-width: 450px;
+  }
+
+.trends-item1{
+    margin-left: 0;
+  }
+
+  .trends-article{
+    position: absolute;
+    bottom: 0;
+    margin: 1.08vw;
+    padding: 1.62vw 1.92vw 2.29vw; 
+  }
+
+  /*---------------content---------------*/
+  .content{
+    margin: 64px 14.81vw 0;
+    flex-wrap: wrap;
+  }
+  .post-list-article {
+    margin-left: 30px;
+    width: 20.48vw;
+    }
+
+  .post{
+    width: 45.78vw;
+    max-width: 815px;
+  }
+
+  .post-list:not(:last-child) {
+    margin-bottom: 60px;
+  }
+  
+  .article-category {
+    display: flex;
+    list-style-type: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "Open Sans";
+    padding-left: 0;
+    margin: 0;
+    margin-bottom: 7px;
+  }
+  
+
+  .article-title-link {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  
+  .article-meta {
+    margin-top: 36px;
+  }
+  
+  
+  .article-preview {
+    margin-top: 57px;
+    width: 20.48vw;    
+  }
+  
+  .article-preview-dope {
+    width: 367px;
+    height: 62px;
+    font-size: 15px;
+    line-height: 22px;
+    color: #0f0d0e;
+    font-weight: 400;
+    font-family: "Open Sans";
+    margin: 0;
+    width: 20.48vw;
+  }
+
+  /*----------------side-bar----------*/
+
+  .side-bar {
+    width: 16.2vw;
+    margin-left: 8.31vw;
+  }
+
+  /*-----------SHOP----------------*/
+  .shop{
+    width: 70.48vw;
+    flex-wrap: wrap;
+  }
+
+  .shop-item{
+    width: 20.96vw;
+    margin-right: 3.73vw;
+    position: relative;
+  }
+
+  .shop-item:last-child{
+    margin-right: 0;
+  }
+
+  .shop-item-article{
+    position: absolute;
+    top: 172px;
+    height: 268px;
+    box-sizing: border-box;
+  }
+
+  .shop-image-item{
+    width: 20.96vw;
+    position: relative;
+    left: 25px;
+  }
+
+  .shop-image{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /*-----------footer----------*/
+
+  .footer-wrapper{
+    width: 70.48vw;
+  }
+  
+
+/*------------------POPUP-----------------*/
+
+  .popup-content{
+    margin-top: 14.63vw;
+    width: 23.61vw;
+    min-width: 260px;
+
+  }
+
+  .popup-article{
+    width: 23.61vw;
+    min-width:260px;
+
+  }
+
+  .popup-visits-article, .popup-email-article, .popup-feedback-article{
+    margin: 4px 1.8vw 16px;
+  }
+
+  .visits-select{
+    width: 19.87vw;
+    min-width: 216.5px;
+    margin-left: 1.8vw;
+    margin-right: 1.8vw;
+  }
+
+  .form_radio {
+    margin-left: 1.8vw;
+  }
+
+  .field{
+    width: 19.87vw;
+    min-width: 216.5px;
+    margin-left: 1.8vw;
+    margin-right: 1.8vw;
+  }
+
+  .button{
+    width: 19.87vw;
+    min-width: 216.5px;
+    margin-left: 1.8vw;
+    margin-right: 1.8vw;
+  }
+
+}
