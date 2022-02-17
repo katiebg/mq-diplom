@@ -409,7 +409,9 @@
           <h3 class="posts-title">наши изделия</h3>
           <div class="shop-list">
             <div class="shop-item">
-              <img class="shop-image" src="images/shop-item-desk1.jpg" alt="подушка">
+              <div class="shop-image-item">
+                <img class="shop-image" src="images/shop-item-desk1.jpg" alt="подушка">
+              </div>
               <div class="shop-item-article">
                 <h4 class="shop-title">подушки на диван</h4>
                 <p class="shop-text">Набор из двух подушек с модными принтами. Видео о создании 
@@ -431,7 +433,9 @@
               </div>
             </div>
             <div class="shop-item">
-              <img class="shop-image" src="images/shop-item-desk2.jpg" alt="подушка">
+              <div class="shop-image-item">
+                <img class="shop-image" src="images/shop-item-desk2.jpg" alt="подушка">
+              </div>
               <div class="shop-item-article">
                 <h4 class="shop-title">кукла "зайчик"</h4>
                 <p class="shop-text">Интерьерная рукодельная кукла «Зайчик», созданию которой посвящена
@@ -450,7 +454,9 @@
               </div>
             </div>
             <div class="shop-item">
-              <img class="shop-image" src="images/shop-item-desk3.jpg" alt="подушка">
+              <div class="shop-image-item">
+                <img class="shop-image" src="images/shop-item-desk3.jpg" alt="подушка">
+              </div>
               <div class="shop-item-article">
                 <h4 class="shop-title">шестиугольная рамка</h4>
                 <p class="shop-text">Необычная рамка для украшения дома из видео 
@@ -505,5 +511,46 @@
           </div>
         </div>
       </footer>
+      <div class="popup">
+        <div class="popup-content">
+          <div class="button-close">
+            <img class="button-close-img" src="svg/form-x.svg" width="19">
+          </div>
+          <section class="popup-article">
+            <h3 class="posts-title">ваш фидбек</h3>
+            <form class="popup-form">
+              <label class="popup-visits">
+                <p class="popup-visits-article">Как часто вы заходите на сайт?</p>
+                <select class="visits-select">
+                  <option value="almost-every-day">Почти каждый день</option>
+                  <option value="every-few-days">Раз в несколько дней</option>
+                  <option value="every-few-weeks">Раз в несколько недель</option>
+                  <option value="several-times-a-year">Несколько раз в год</option> 
+                </select>
+              </label>
+              <label class="popup-email">
+                <p class="popup-email-article">Вы подписаны на e-mail рассылку?</p>
+                <div class="radio">
+                  <div class="form_radio">
+                    <input id="radio-1" type="radio" name="radio" value="1" checked>
+                    <label for="radio-1">Да</label>
+                  </div>
+                  <div class="form_radio">
+                    <input id="radio-2" type="radio" name="radio" value="2">
+                    <label for="radio-2">Нет</label>
+                  </div>
+                </div>
+              </label>
+              <label class="popup-feedback">
+                <p class="popup-feedback-article">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</p>
+                <input class="field" placeholder="Может, больше рецептов?" required>
+              </label>
+              <label class="button-send">
+                <button class="button">отправить</button>
+              </label>
+            </form>
+          </section>
+        </div>
+      </div>
 </body>
 </html>
