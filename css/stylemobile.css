@@ -179,25 +179,17 @@
 
     /*-------------SHOP-------------*/
 
+    .shop{
+        flex-direction: column;
+    }
+
     .shop-list{
+        flex-direction: column;
+
         width: 91.66vw;
-        flex-wrap: wrap;
         max-width: 337px;
         margin-right: auto;
         margin-left: auto;
-    }
-    .shop-item1{
-        width: 91.66vw;
-        margin-bottom: 26px;
-        margin-right: auto;
-        margin-left: auto;
-    }
-    .shop-item2{
-        width: 91.66vw;
-        margin-bottom: 26px;
-    }
-    .shop-item3{
-        width: 91.66vw;
     }
 
     /*------------footer------------*/
@@ -208,6 +200,44 @@
 
 
 
-    
+    /*------------------POPUP-----------------*/
+
+.popup-content{
+
+    margin-top: 56px;
+    width: 91.48vw;
+
+  }
+  .popup-article{
+    height: 546px;
+    width: 91.48vw;
+
+  }
+  .popup-visits-article, .popup-email-article, .popup-feedback-article{
+    margin: 4px 7.5vw 16px;
+
+  }
+
+  .visits-select{
+    width: 78.05vw;
+    margin-left: 7.5vw;
+    margin-right: 7.5vw;
+  }
+
+  .form_radio {
+    margin-left: 7.5vw;
+  }
+
+  .field{
+    width: 78.05vw;
+    margin-left: 7.5vw;
+    margin-right: 7.5vw;
+  }
+
+  .button{
+    width: 78.05vw;
+    margin-left: 7.5vw;
+    margin-right: 7.5vw;
+  }
  }
 

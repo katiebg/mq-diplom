@@ -152,20 +152,27 @@
 
     /*------------- shop -----------*/
 
+    .shop{
+        flex-direction: column;
+    }
+
     .shop-list{
         flex-wrap: wrap;
         justify-content: space-between;
     }
 
-    .shop-item1, .shop-item2, .shop-item3{
-        max-width: 332px;
-        width: 37.8vw;
-        margin-bottom: 28px;
+    .shop-item{
+        width: 28.64vw;
+        margin-right: 2.86vw;
+        min-width: 330px;
     }
 
-    .shop-item1{
-        margin-right: 2.8vw;
+    .shop-item:nth-child(even){
+        margin-right: 0;
     }
+
+    
+
 
     /*-------------footer-------------*/
 
@@ -173,4 +180,42 @@
         width: 90.88vw
     }
   
-  }
+
+  /*------------------POPUP-----------------*/
+
+    .popup-content{
+
+        margin-top: 243px;
+        width: 51.04vw;
+
+    }
+    .popup-article{
+        width: 51.04vw;
+    }
+    .popup-visits-article, .popup-email-article, .popup-feedback-article{
+        margin: 4px 3.9vw 16px;
+    
+      }
+      .visits-select{
+        width: 43.09vw;
+        margin-left: 3.9vw;
+        margin-right: 3.9vw;
+      }
+
+      .form_radio {
+        margin-left: 3.9vw;
+      }
+
+      .field{
+        width: 43.09vw;
+        margin-left: 3.9vw;
+        margin-right: 3.9vw;
+      }
+
+      .button{
+        width: 43.09vw;
+        margin-left: 3.9vw;
+        margin-right: 3.9vw;
+      }
+
+}

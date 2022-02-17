@@ -89,10 +89,16 @@
     margin-top: 64px;
   }
 
+  .trends-list{
+    justify-content: space-around;
+
+  }
+
   .trends-item1, .trends-item2, .trends-item3, .trends-item4{
     margin-left: 4px;
     height: 320px;
     width: 24.69vw;
+    max-width: 450px;
   }
 
 .trends-item1{
@@ -175,6 +181,7 @@
   /*-----------SHOP----------------*/
   .shop{
     width: 70.48vw;
+    flex-wrap: wrap;
   }
 
   .shop-item{
@@ -194,13 +201,16 @@
     box-sizing: border-box;
   }
 
-  .shop-image{
+  .shop-image-item{
+    width: 20.96vw;
     position: relative;
-    left: 23px;
-    right: 23px;
+    left: 25px;
   }
-  
 
+  .shop-image{
+    margin-left: auto;
+    margin-right: auto;
+  }
 
   /*-----------footer----------*/
 
@@ -209,5 +219,48 @@
   }
   
 
-}
+/*------------------POPUP-----------------*/
 
+  .popup-content{
+    margin-top: 14.63vw;
+    width: 23.61vw;
+    min-width: 260px;
+
+  }
+
+  .popup-article{
+    width: 23.61vw;
+    min-width:260px;
+
+  }
+
+  .popup-visits-article, .popup-email-article, .popup-feedback-article{
+    margin: 4px 1.8vw 16px;
+  }
+
+  .visits-select{
+    width: 19.87vw;
+    min-width: 216.5px;
+    margin-left: 1.8vw;
+    margin-right: 1.8vw;
+  }
+
+  .form_radio {
+    margin-left: 1.8vw;
+  }
+
+  .field{
+    width: 19.87vw;
+    min-width: 216.5px;
+    margin-left: 1.8vw;
+    margin-right: 1.8vw;
+  }
+
+  .button{
+    width: 19.87vw;
+    min-width: 216.5px;
+    margin-left: 1.8vw;
+    margin-right: 1.8vw;
+  }
+
+}
