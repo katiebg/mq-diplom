@@ -409,9 +409,21 @@
           <h3 class="posts-title">наши изделия</h3>
           <div class="shop-list">
             <div class="shop-item">
-              <div class="shop-image-item">
-                <img class="shop-image" src="images/shop-item-desk1.jpg" alt="подушка">
-              </div>
+                <picture class="shop-image-item">
+                  <source
+                    media = "(max-width: 640px)"
+                    srcset="images/shop-item-mobile1.jpg"
+                  />
+                  <source
+                    media = "(min-width: 641px) and (max-width: 1200px)"
+                    srcset="images/shop-item-tablet1.jpg"
+                  />
+                  <source
+                    media = "(min-width: 1200px)"
+                    srcset="images/shop-item-desk1.jpg"
+                  />
+                  <img src="images/shop-item-desk1.jpg" alt="подушка" />
+                </picture>
               <div class="shop-item-article">
                 <h4 class="shop-title">подушки на диван</h4>
                 <p class="shop-text">Набор из двух подушек с модными принтами. Видео о создании 
@@ -433,9 +445,21 @@
               </div>
             </div>
             <div class="shop-item">
-              <div class="shop-image-item">
-                <img class="shop-image" src="images/shop-item-desk2.jpg" alt="подушка">
-              </div>
+              <picture class="shop-image-item">
+                <source
+                  media = "(max-width: 640px)"
+                  srcset="images/shop-item-mobile2.jpg"
+                />
+                <source
+                  media = "(min-width: 641px) and (max-width: 1200px)"
+                  srcset="images/shop-item-tablet2.jpg"
+                />
+                <source
+                  media = "(min-width: 1200px)"
+                  srcset="images/shop-item-desk2.jpg"
+                />
+                <img src="images/shop-item-desk2.jpg" alt="подушка" />
+              </picture>
               <div class="shop-item-article">
                 <h4 class="shop-title">кукла "зайчик"</h4>
                 <p class="shop-text">Интерьерная рукодельная кукла «Зайчик», созданию которой посвящена
@@ -454,9 +478,21 @@
               </div>
             </div>
             <div class="shop-item">
-              <div class="shop-image-item">
-                <img class="shop-image" src="images/shop-item-desk3.jpg" alt="подушка">
-              </div>
+              <picture class="shop-image-item">
+                <source
+                  media = "(max-width: 640px)"
+                  srcset="images/shop-item-mobile3.jpg"
+                />
+                <source
+                  media = "(min-width: 641px) and (max-width: 1200px)"
+                  srcset="images/shop-item-tablet3.jpg"
+                />
+                <source
+                  media = "(min-width: 1200px)"
+                  srcset="images/shop-item-desk3.jpg"
+                />
+                <img src="images/shop-item-desk3.jpg" alt="подушка" />
+              </picture>
               <div class="shop-item-article">
                 <h4 class="shop-title">шестиугольная рамка</h4>
                 <p class="shop-text">Необычная рамка для украшения дома из видео 
@@ -514,13 +550,13 @@
       <div class="popup">
         <div class="popup-content">
           <div class="button-close">
-            <img class="button-close-img" src="svg/form-x.svg" width="19">
+            <img class="button-close-img" src="svg/form-x.svg" width="19" alt="close">
           </div>
           <section class="popup-article">
             <h3 class="posts-title">ваш фидбек</h3>
             <form class="popup-form">
               <label class="popup-visits">
-                <p class="popup-visits-article">Как часто вы заходите на сайт?</p>
+                <span class="popup-visits-article">Как часто вы заходите на сайт?</span>
                 <select class="visits-select">
                   <option value="almost-every-day">Почти каждый день</option>
                   <option value="every-few-days">Раз в несколько дней</option>
@@ -528,22 +564,23 @@
                   <option value="several-times-a-year">Несколько раз в год</option> 
                 </select>
               </label>
-              <label class="popup-email">
-                <p class="popup-email-article">Вы подписаны на e-mail рассылку?</p>
+              <div class="popup-email">
+                <span class="popup-email-article">Вы подписаны на e-mail рассылку?</span>
                 <div class="radio">
-                  <div class="form_radio">
-                    <input id="radio-1" type="radio" name="radio" value="1" checked>
-                    <label for="radio-1">Да</label>
-                  </div>
-                  <div class="form_radio">
-                    <input id="radio-2" type="radio" name="radio" value="2">
-                    <label for="radio-2">Нет</label>
-                  </div>
+                  <label class="form_radio">
+                    <input class="radio-button" type="radio" name="radio" value="1" checked>
+                    <span class="radio-text">Да</span>
+                  </label>
+                  <label class="form_radio">
+                    <input class="radio-button" type="radio" name="radio" value="2">
+                    <span class="radio-text">Нет</span>
+                  </label>
                 </div>
-              </label>
+              </div>
               <label class="popup-feedback">
-                <p class="popup-feedback-article">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</p>
-                <input class="field" placeholder="Может, больше рецептов?" required>
+                <span class="popup-feedback-article">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</span>
+                <textarea class="field"  required>Может, больше рецептов?</textarea>
+
               </label>
               <label class="button-send">
                 <button class="button">отправить</button>
