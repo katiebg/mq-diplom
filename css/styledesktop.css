@@ -1,4 +1,4 @@
-@media (min-width:1200px) {
+@media (min-width:1201px) {
      
 
   .header {
@@ -184,26 +184,30 @@
     flex-wrap: wrap;
   }
 
+  .shop-list{
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
   .shop-item{
-    width: 20.96vw;
-    margin-right: 3.73vw;
+    width: 346px;
     position: relative;
   }
 
   .shop-item:last-child{
-    margin-right: 0;
+    margin-top: 215px;
   }
 
   .shop-item-article{
-    position: absolute;
+    position: relative;
     top: 172px;
-    height: 268px;
+    min-height: 268px;
     box-sizing: border-box;
   }
 
   .shop-image-item{
-    width: 20.96vw;
-    position: relative;
+    /*width: 20.96vw;*/
+    position: absolute;
     left: 25px;
   }
 
@@ -222,7 +226,7 @@
 /*------------------POPUP-----------------*/
 
   .popup-content{
-    margin-top: 14.63vw;
+    margin-top: 213px;
     width: 23.61vw;
     min-width: 260px;
 
@@ -238,6 +242,11 @@
     margin: 4px 1.8vw 16px;
   }
 
+  .popup-feedback{
+    width: 19.87vw;
+    margin-left: 1.8vw;
+  }
+
   .visits-select{
     width: 19.87vw;
     min-width: 216.5px;
@@ -250,10 +259,8 @@
   }
 
   .field{
-    width: 19.87vw;
+    width: 100%;
     min-width: 216.5px;
-    margin-left: 1.8vw;
-    margin-right: 1.8vw;
   }
 
   .button{
@@ -263,4 +270,10 @@
     margin-right: 1.8vw;
   }
 
+}
+
+@media (min-width: 1473px) {
+  .shop-item:last-child{
+    margin-top: 0;
+  }
 }

@@ -184,13 +184,32 @@
     }
 
     .shop-list{
-        flex-direction: column;
-
-        width: 91.66vw;
-        max-width: 337px;
-        margin-right: auto;
-        margin-left: auto;
+        flex-wrap: wrap;
+        justify-content: center;
     }
+
+    .shop-item{
+        width: 332px;
+        position: relative;
+        margin-top: 278px
+    }
+
+    .shop-item:first-child{
+        margin-top: 0;;
+    }
+
+    .shop-item-article{
+        position: relative;
+        top: 254px;
+        min-height: 268px;
+        box-sizing: border-box;
+      }
+
+      .shop-image-item{
+        /*width: 20.96vw;*/
+        position: absolute;
+        left: 18px;
+      }
 
     /*------------footer------------*/
 
@@ -204,7 +223,7 @@
 
 .popup-content{
 
-    margin-top: 56px;
+    margin-top: 15px;
     width: 91.48vw;
 
   }
@@ -218,6 +237,11 @@
 
   }
 
+  .popup-feedback{
+    width: 78.05vw;
+    margin-left: 7.5vw;  
+}
+
   .visits-select{
     width: 78.05vw;
     margin-left: 7.5vw;
@@ -230,8 +254,7 @@
 
   .field{
     width: 78.05vw;
-    margin-left: 7.5vw;
-    margin-right: 7.5vw;
+
   }
 
   .button{
